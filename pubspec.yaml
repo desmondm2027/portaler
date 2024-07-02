@@ -1,0 +1,46 @@
+name: portaler
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/introduccion.jpeg
+    - assets/icons/tier_I.png
+    - assets/icons/tier_II.png
+    - assets/icons/tier_III.png
+    - assets/icons/tier_IV.png
+    - assets/icons/tier_V.png
+    - assets/icons/tier_VI.png
+    - assets/icons/tier_VII.png
+    - assets/icons/tier_VIII.png
+    - database/albion.db
+
+  fonts:
+    - family: Allura
+      fonts:
+        - asset: assets/fonts/Allura-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
