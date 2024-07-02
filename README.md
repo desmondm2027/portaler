@@ -1,6 +1,7 @@
 # portaler
 
-A new Flutter project.
+APLICACIÓN MÓVIL PARA LA EXPLORCION DE PORTALES
+AVALONIANOS EN ALBION ONLINE
 
 ## Getting Started
 
